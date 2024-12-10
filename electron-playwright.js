@@ -1,10 +1,10 @@
 const { _electron: electron } = require('playwright');
 
 // Ruta al ejecutable de la aplicación Kevin
-// const appPath = '/Applications/McDonald\'s ADK.app/Contents/MacOS/McDonald\'s ADK';
+const appPath = '/Applications/McDonald\'s ADK.app/Contents/MacOS/McDonald\'s ADK';
 
-// Ruta al ejecutable Totem ECONOCOM 
-const appPath = '';
+// Ruta al ejecutable Totem ECONOCOM OFICINA
+//const appPath = 'C:/Users/acrelec/AppData/Local/Programs/mcd-adk-front';
 
 
 

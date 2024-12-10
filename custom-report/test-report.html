@@ -50,11 +50,11 @@
                     color: #666;
                 }
                 .status-pass {
-                    color: #ffc72c; /* Amarillo de McDonald's */
+                    color: #4CAF50; /* Verde para éxito */
                     font-weight: bold;
                 }
                 .status-fail {
-                    color: #d52b1e; /* Rojo de McDonald's */
+                    color: #d52b1e; /* Rojo para fallos */
                     font-weight: bold;
                 }
                 .title-section {
@@ -74,22 +74,59 @@
                     <p>Total de pruebas: 2</p>
                     <p>Éxitos: 2</p>
                     <p>Fallos: 0</p>
+                    <p><a href="../coverage/index.html" target="_blank">Ver Reporte de Cobertura</a></p>
                 </div>
                 
                     <div class="title-section">Prueba: testHomePage.spec.js</div>
                     <p><strong>Estado:</strong> <span class="status-pass">Exitoso</span></p>
-                    <h2>Salida de la Prueba</h2>
-                    <pre></pre>
+                    <h2>Output</h2>
+                    <pre>Botón de Continuar sin Login esta visible
+Botón de Selección de Idioma esta visible.
+Botón de Accesibilidad esta visible
+Prueba completada exitosamente en HomePage.
+-----------------------------------|---------|----------|---------|---------|-------------------
+File                               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------------------|---------|----------|---------|---------|-------------------
+All files                          |   96.87 |      100 |     100 |   96.87 |                   
+ ADKautomation                     |     100 |      100 |     100 |     100 |                   
+  electron-playwright.js           |     100 |      100 |     100 |     100 |                   
+ ADKautomation/pages/attractScreen |     100 |      100 |     100 |     100 |                   
+  attractScreenActions.js          |     100 |      100 |     100 |     100 |                   
+  attractScreenSelector.js         |     100 |      100 |     100 |     100 |                   
+ ADKautomation/utils               |      90 |      100 |     100 |      90 |                   
+  appManager.js                    |      90 |      100 |     100 |      90 | 19                
+-----------------------------------|---------|----------|---------|---------|-------------------
+</pre>
                     <p>No se encontraron errores.</p>
                 
                     <div class="title-section">Prueba: testOrderType.spec.js</div>
                     <p><strong>Estado:</strong> <span class="status-pass">Exitoso</span></p>
-                    <h2>Salida de la Prueba</h2>
-                    <pre></pre>
+                    <h2>Output</h2>
+                    <pre>Botón de Continuar sin Login esta visible
+Textos en los botones de selección verificados correctamente.
+Botón "Para comer aquí" clicado exitosamente.
+Botón "Para llevar" clicado exitosamente.
+Botón Spanish clicado exitosamente
+Pruebas de selección de tipo de pedido completadas.
+-----------------------------------|---------|----------|---------|---------|-------------------
+File                               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-----------------------------------|---------|----------|---------|---------|-------------------
+All files                          |   89.13 |       50 |     100 |   89.13 |                   
+ ADKautomation                     |     100 |      100 |     100 |     100 |                   
+  electron-playwright.js           |     100 |      100 |     100 |     100 |                   
+ ADKautomation/pages/attractScreen |     100 |      100 |     100 |     100 |                   
+  attractScreenSelector.js         |     100 |      100 |     100 |     100 |                   
+ ADKautomation/pages/orderType     |   84.61 |       50 |     100 |   84.61 |                   
+  orderTypeActions.js              |   83.33 |       50 |     100 |   83.33 | 21,27,32-33       
+  orderTypeSelectors.js            |     100 |      100 |     100 |     100 |                   
+ ADKautomation/utils               |      90 |      100 |     100 |      90 |                   
+  appManager.js                    |      90 |      100 |     100 |      90 | 19                
+-----------------------------------|---------|----------|---------|---------|-------------------
+</pre>
                     <p>No se encontraron errores.</p>
                 
                 <div class="footer">
-                    <p>Generado el 11/19/2024, 5:23:38 PM</p>
+                    <p>Generado el 12/10/2024, 12:51:34 PM</p>
                 </div>
             </div>
         </body>

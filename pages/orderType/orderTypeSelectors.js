@@ -2,6 +2,9 @@
 const orderTypeSelectors = {
     pickUpBtn: '[data-test="pickup-btn-eatin"]',
     takeOutBtn: '[data-test="pickup-btn-takeout"]',
+    spanishBtn: 'button:has-text("Español")',
+    englishBtn: 'button:has-text("Inglés")',
+
     
 };
 
